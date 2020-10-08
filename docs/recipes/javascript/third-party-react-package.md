@@ -30,7 +30,7 @@ type Prop =
     | OnValueChange of ({| value: string; floatValue : float Option |} -> unit)
 ```
 
-> One difference to not is that we use **P**ascalCase rather than **c**amelCase.
+> One difference to note is that we use **P**ascalCase rather than **c**amelCase.
 >
 > Note that we can model any props here, both simple values and "event handler"-style ones.
 
